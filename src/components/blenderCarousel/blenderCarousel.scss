@@ -1,0 +1,99 @@
+.blenderCarousel {
+    width: 45vw;
+    height: 100vh;
+
+    padding: 2rem;
+    background-color: #e66226;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        color: rgba(255, 255, 255, 0.63);
+
+        font-size: 2.7rem;
+        font-weight: 900;
+        text-transform: uppercase;
+
+        margin-bottom: 3rem;
+    }
+
+    .swiper-container,
+    .swiper-wrapper {
+        width: 40rem;
+        height: 20rem;
+
+        .border-top {
+            width: 50%;
+            height: 0.5rem;
+            background-color: white;
+            position: relative;
+            top: -2rem;
+            left: -2.5rem;
+        }
+        .border-left {
+            width: 50%;
+            height: 0.5rem;
+            background-color: white;
+            position: relative;
+            top: -2.4rem;
+            left: -2rem;
+
+            transform: rotate(90deg);
+            transform-origin: left top;
+        }
+
+        .border-bottom {
+            width: 50%;
+            height: 0.5rem;
+            background-color: white;
+            position: relative;
+            bottom: -40rem;
+            right: -23rem;
+        }
+        .border-right {
+            width: 50%;
+            height: 0.5rem;
+            background-color: white;
+            position: relative;
+            bottom: -40rem;
+            right: -43rem;
+            transform: rotate(-90deg);
+            transform-origin: left top;
+        }
+
+        .swiper-slide {
+            text-align: justify;
+            font-size: 1.8rem;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin-bottom: 6rem;
+            padding: 5rem;
+            padding-top: 8rem;
+
+            position: relative;
+
+            .icon {
+                position: absolute;
+                top: 2rem;
+                left: 8rem;
+
+                font-size: 4rem;
+                color: #e66226;
+            }
+        }
+
+        .active {
+            // outline: #fff solid 2px;
+            // outline-offset: 1.8rem;
+        }
+    }
+}
+
+//Swiper https://codesandbox.io/s/vv9lk?file=/src/App.jsx
