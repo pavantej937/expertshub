@@ -96,4 +96,147 @@
     }
 }
 
-//Swiper https://codesandbox.io/s/vv9lk?file=/src/App.jsx
+@media screen and (max-width: 1200px) {
+    .blenderCarousel {
+        h1 {
+            font-size: 2.5rem;
+
+            margin-bottom: 5.5rem;
+        }
+
+        .swiper-container,
+        .swiper-wrapper {
+            width: 30rem;
+
+            .border-bottom {
+                bottom: -36rem;
+                right: -18rem;
+            }
+            .border-right {
+                bottom: -36rem;
+                right: -33rem;
+            }
+
+            .swiper-slide {
+                font-size: 1.5rem;
+
+                margin-bottom: 7rem;
+                padding: 4rem;
+                padding-top: 8rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .blenderCarousel {
+        h1 {
+            font-size: 2rem;
+
+            margin-bottom: 5.5rem;
+        }
+
+        .swiper-container,
+        .swiper-wrapper {
+            width: 25rem;
+
+            .border-bottom {
+                right: -16rem;
+                bottom: -32rem;
+            }
+            .border-right {
+                bottom: -32rem;
+                right: -28rem;
+            }
+
+            .swiper-slide {
+                font-size: 1.3rem;
+
+                margin-bottom: 12rem;
+                padding: 3rem;
+                padding-top: 8rem;
+            }
+        }
+    }
+}
+@media screen and (max-width: 800px) {
+    .blenderCarousel {
+        overflow: hidden;
+        h1 {
+            font-size: 1.5rem;
+
+            margin-bottom: 5.5rem;
+        }
+
+        .swiper-container,
+        .swiper-wrapper {
+            width: 20rem;
+
+            .border-bottom {
+                right: -12rem;
+                bottom: -32rem;
+            }
+            .border-right {
+                bottom: -32rem;
+                right: -22rem;
+            }
+
+            .swiper-slide {
+                font-size: 1.1rem;
+
+                margin-bottom: 12rem;
+                padding: 3rem;
+                padding-top: 8rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blenderCarousel {
+        overflow: hidden;
+        h1 {
+            text-align: center;
+            font-size: 1.5rem;
+
+            margin-bottom: 5.5rem;
+        }
+
+        .swiper-container,
+        .swiper-wrapper {
+            width: 10rem;
+
+            .border-top {
+                top: 0rem;
+                left: -1.5rem;
+            }
+            .border-left {
+                top: -0.4rem;
+                left: -1.1rem;
+            }
+
+            .border-bottom {
+                right: -6rem;
+                bottom: -26rem;
+            }
+            .border-right {
+                bottom: -26rem;
+                right: -11rem;
+            }
+
+            .swiper-slide {
+                font-size: 0.8rem;
+
+                margin-bottom: 12rem;
+                padding: 1rem;
+                padding-top: 6rem;
+                .icon {
+                    left: 2rem;
+
+                    font-size: 2rem;
+                    color: #e66226;
+                }
+            }
+        }
+    }
+}

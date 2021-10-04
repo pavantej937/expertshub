@@ -1,7 +1,9 @@
 .testimonials {
     display: flex;
 
-    padding: 2rem;
+    // padding: 2rem;
+
+    overflow: hidden;
 
     .content {
         width: 45vw;
@@ -9,7 +11,7 @@
 
         padding: 5rem;
 
-
+        border-right: 1px solid #e66226;
 
         img {
             width: 10rem;
@@ -41,6 +43,21 @@
             text-align: justify;
 
             color: grey;
+        }
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .testimonials {
+        .content {
+            padding: 4rem;
+
+            p {
+                font-size: 1.6rem;
+                text-align: justify;
+
+                color: grey;
+            }
         }
     }
 }
