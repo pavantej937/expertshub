@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-Home">
+      <rect width="35" height="35"/>
+    </clipPath>
+  </defs>
+  <g id="Home" clip-path="url(#clip-Home)">
+    <path id="Icon_material-home" data-name="Icon material-home" d="M17,34.25V23.75h7v10.5h8.75v-14H38L20.5,4.5,3,20.25H8.25v14Z" transform="translate(-3 -1.5)" fill="#fff"/>
+  </g>
+</svg>

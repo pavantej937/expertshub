@@ -1,0 +1,78 @@
+.slider {
+    padding: 2rem;
+
+    width: 45vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+
+    .border-top {
+        width: 20%;
+        height: 0.5rem;
+        background-color: #E66226;
+        position: absolute;
+        top: 27rem;
+        left: 7.5rem;
+    }
+    .border-left {
+        width: 15%;
+        height: 0.5rem;
+        background-color: #E66226;
+        position: absolute;
+        top: 27rem;
+        left: 7.5rem;
+
+        transform: rotate(90deg);
+        transform-origin: left top;
+    }
+
+    .border-bottom {
+        width: 20%;
+        height: 0.5rem;
+        background-color: #E66226;
+        position: absolute;
+        top: 63rem;
+        left: 8rem;
+    }
+    .border-right {
+        width: 15%;
+        height: 0.5rem;
+        background-color: #E66226;
+        position: absolute;
+        top: 53rem;
+        left: 8.5rem;
+        transform: rotate(90deg);
+        transform-origin: left top;
+    }
+
+    div {
+        width: 30rem;
+        height: 30rem;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .img-1 {
+        position: absolute;
+        transform: rotate(30deg);
+        transform-origin: 100%;
+    }
+    .img-2 {
+        position: absolute;
+        top: 30rem;
+        right: 26rem;
+    }
+    .img-3 {
+        position: absolute;
+        top: 58rem;
+        right: 20rem;
+        transform: rotate(-23deg);
+        transform-origin: 100%;
+    }
+}

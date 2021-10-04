@@ -1,0 +1,46 @@
+.testimonials {
+    display: flex;
+
+    padding: 2rem;
+
+    .content {
+        width: 45vw;
+        height: 100vh;
+
+        padding: 5rem;
+
+
+
+        img {
+            width: 10rem;
+            height: 10rem;
+        }
+
+        h1 {
+            color: #e66326a1;
+            text-transform: uppercase;
+            font-weight: 900;
+            font-size: 2.5rem;
+
+            margin-bottom: 3rem;
+        }
+        h2 {
+            font-weight: 700;
+            font-size: 2rem;
+            margin: 2.5rem 0;
+
+            color: rgba(0, 0, 0, 0.8);
+        }
+        h4 {
+            font-size: 1.4rem;
+            color: rgba(0, 0, 0, 0.8);
+            margin-bottom: 2rem;
+        }
+        p {
+            font-size: 1.8rem;
+            text-align: justify;
+
+            color: grey;
+        }
+    }
+}

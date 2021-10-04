@@ -1,0 +1,26 @@
+.blendedEducation {
+    width: 45vw;
+    height: 100vh;
+
+    // background-color: hotpink;
+
+    padding: 2rem;
+
+    .content {
+        margin-top: 12rem;
+        margin-left: 2rem;
+
+        h1 {
+            margin-bottom: 2.5rem;
+            color: grey;
+            span {
+                text-transform: uppercase;
+                font-size: 1.5rem;
+                margin-left: 1rem;
+            }
+        }
+        .active {
+            color: #e66226;
+        }
+    }
+}
