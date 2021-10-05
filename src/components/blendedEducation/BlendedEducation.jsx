@@ -12,27 +12,27 @@ const BlendedEducation = () => {
           <span>blended Education</span>
         </h1>
         <h1>
-          <DoubleArrowIcon />
+          <DoubleArrowIcon className="icon" />
           <span>industry vetted experiental programs</span>
         </h1>
         <h1>
-          <DoubleArrowIcon />
+          <DoubleArrowIcon className="icon" />
           <span>project based learning</span>
         </h1>
         <h1>
-          <DoubleArrowIcon />
+          <DoubleArrowIcon className="icon" />
           <span>training by experience industry professionals</span>
         </h1>
         <h1>
-          <DoubleArrowIcon />
+          <DoubleArrowIcon className="icon" />
           <span>student to professional transition</span>
         </h1>
         <h1>
-          <DoubleArrowIcon />
+          <DoubleArrowIcon className="icon" />
           <span>life skills training</span>
         </h1>
         <h1>
-          <DoubleArrowIcon />
+          <DoubleArrowIcon className="icon" />
           <span>industry recognised certificate</span>
         </h1>
       </div>

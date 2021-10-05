@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 import "./leftbar.scss";
@@ -9,30 +10,37 @@ import imgProfile from "../../Images/Rectangle18909.png";
 const LeftBar = () => {
   return (
     <div className="leftbar">
-      <div className="logo">
-        <img src={Logo} alt="" />
-      </div>
+      <Link to="/" className="link">
+        <div className="logo">
+          <img src={Logo} alt="" />
+        </div>
+      </Link>
 
       <div className="icons">
-        <div className="icon">
-          <img src={Logo} alt="" />
-          <h3>Home</h3>
-        </div>
+        <Link to="/">
+          <div className="icon">
+            <img src={Logo} alt="" />
+            <h3>Home</h3>
+          </div>
+        </Link>
 
-        <div className="icon">
-          <img src={Logo} alt="" />
-          <h3>About US</h3>
-        </div>
-
-        <div className="icon">
-          <img src={Logo} alt="" />
-          <h3>Teaching</h3>
-        </div>
+        <Link to="/education">
+          <div className="icon">
+            <img src={Logo} alt="" />
+            <h3>Teaching</h3>
+          </div>
+        </Link>
 
         <div className="icon">
           <img src={Logo} alt="" />
           <h3>Carrer</h3>
         </div>
+        <Link to="/testimonials">
+          <div className="icon">
+            <img src={Logo} alt="" />
+            <h3>About US</h3>
+          </div>
+        </Link>
       </div>
 
       <div className="profile">

@@ -7,8 +7,8 @@ const BlenderCarousel = () => {
     <div className="blenderCarousel">
       <h1>expertshub stands out</h1>
 
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
+      <div className="swiper-container">
+        <div className="swiper-wrapper">
           <div className="border-top"></div>
           <div className="border-left"></div>
           <div className="border-bottom"></div>
@@ -22,7 +22,7 @@ const BlenderCarousel = () => {
               features will enhance the learning
             </p>
           </div>
-          <div class="swiper-slide">
+          <div className="swiper-slide">
             <LanguageIcon className="icon" />
             <p>
               We continuously work with industry experts to develop a

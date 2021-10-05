@@ -12,6 +12,7 @@ const TestimonialSlider = () => {
       <div className="border-left"></div>
       <div className="border-bottom"></div>
       <div className="border-right"></div>
+
       <div className="img-1">
         <img src={Img3} alt="" />
       </div>
