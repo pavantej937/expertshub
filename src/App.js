@@ -5,6 +5,7 @@ import Home from "./pages/home/Home";
 import Education from "./pages/education/Education";
 import Testimonials from "./pages/testimonials/Testimonials";
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -16,8 +17,9 @@ function App() {
           <Testimonials />
         </Route>
         <Route path="/education">
-          <Education type="series" />
+          <Education/>
         </Route>
+        
       </Switch>
     </BrowserRouter>
   );

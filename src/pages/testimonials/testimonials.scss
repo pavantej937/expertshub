@@ -1,6 +1,8 @@
 .testimonials {
     display: flex;
 
+    height: 100vh;
+
     // padding: 2rem;
 
     overflow: hidden;
@@ -54,6 +56,48 @@
 
             p {
                 font-size: 1.6rem;
+                text-align: justify;
+
+                color: grey;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    .testimonials {
+        .content {
+            padding: 4rem;
+            img {
+                width: 8rem;
+                height: 8rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+                text-align: justify;
+
+                color: grey;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    .testimonials {
+        .content {
+            padding: 4rem;
+            h1{
+                font-size: 1.5rem;
+            }
+            img {
+                width: 6rem;
+                height: 6rem;
+            }h2{
+                font-size: 1.4rem;
+            }h4{
+                font-size: 1.1rem;
+            }
+            p {
+                font-size: .9rem;
                 text-align: justify;
 
                 color: grey;

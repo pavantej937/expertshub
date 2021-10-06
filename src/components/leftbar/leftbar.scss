@@ -17,6 +17,10 @@
         }
     }
 
+    .link {
+        text-decoration: none !important;
+    }
+
     .icons {
         .icon {
             margin-bottom: 2rem;
@@ -96,7 +100,7 @@
 
         .icons {
             .icon {
-                margin-bottom: 3rem;
+                margin-bottom: 2rem;
                 img {
                     width: 5rem;
                     height: 5rem;
@@ -120,7 +124,7 @@
 
         .icons {
             .icon {
-                margin-bottom: 5rem;
+                margin-bottom: 2rem;
                 img {
                     width: 4rem;
                     height: 4rem;
@@ -136,7 +140,7 @@
     .leftbar {
         .icons {
             .icon {
-                margin-bottom: 4rem;
+                margin-bottom: 2rem;
                 img {
                     width: 4rem;
                     height: 4rem;
