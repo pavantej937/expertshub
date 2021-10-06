@@ -10,6 +10,7 @@ const Home = () => {
       <div className="leftBar">
         <LeftBar />
       </div>
+
       <div className="content">
         <img src={HomeImg} alt="" />
       </div>

@@ -10,13 +10,12 @@
 
 html {
   font-size: 62.5%;
+  
 }
 
 body {
   font-family: "Arial", sans-serif;
   line-height: 1.6;
-  
   overflow-y: hidden;
   overflow-x: hidden;
 }
-

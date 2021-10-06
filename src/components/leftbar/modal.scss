@@ -1,0 +1,159 @@
+.login {
+}
+.modal-cross {
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    .cross {
+        font-size: 3rem;
+    }
+}
+
+.modal-logo {
+    text-align: center;
+
+    margin-top: 2rem;
+}
+
+.modal-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424143;
+    text-align: center;
+    font-size: 2.4rem;
+
+    margin-top: 2rem;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-input {
+    width: 55rem;
+    height: 6rem;
+
+    border: 2px solid #424143;
+
+    border-radius: 10px;
+    opacity: 1;
+
+    margin-top: 2rem;
+}
+.modal-input::placeholder {
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+
+.modal-submit {
+    width: 55rem;
+    height: 7rem;
+
+    cursor: pointer;
+
+    background-color: #e66225d2;
+    border-radius: 10px;
+    opacity: 0.5;
+
+    margin-top: 2rem;
+
+    color: white;
+
+    font-size: 2rem;
+}
+.modal-submit-active {
+    background-color: #e66226;
+
+    opacity: 2;
+
+    color: white;
+
+    font-size: 2rem;
+}
+
+.modal-subHeading {
+    margin-top: 2rem;
+
+    position: relative;
+
+    .left-line {
+        width: 18rem;
+        height: 2px;
+
+        position: absolute;
+
+        top: 50%;
+        left: 10rem;
+
+        background-color: #7e7e7e;
+    }
+    .right-line {
+        width: 18rem;
+        height: 2px;
+
+        position: absolute;
+
+        top: 50%;
+        right: 10rem;
+
+        background-color: #7e7e7e;
+    }
+
+    h3 {
+        text-align: center;
+        letter-spacing: 0.17px;
+        color: #7e7e7e;
+        opacity: 1;
+    }
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 2rem;
+    .fb-btn {
+        width: 20rem;
+        height: 5rem;
+
+        background-color: #fff;
+        color: #3a5e99;
+
+        border: 2px solid #3a5e99;
+        border-radius: 10px;
+        opacity: 1;
+
+        margin-right: 1rem;
+
+        cursor: pointer;
+        font-size: 2rem;
+    }
+    .go-btn {
+        width: 20rem;
+        height: 5rem;
+
+        background-color: #fff;
+        color: #cf2d48;
+
+        border: 2px solid #cf2d48;
+        border-radius: 10px;
+        opacity: 1;
+
+        cursor: pointer;
+        font-size: 2rem;
+    }
+
+    .social-icon {
+        font-size: 2rem;
+        margin-right: 0.5rem;
+    }
+}
+
+.otp {
+    display: none;
+}
+.success {
+    display: none;
+}

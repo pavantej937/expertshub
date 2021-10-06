@@ -13,7 +13,7 @@ const BlenderCarousel = () => {
           <div className="border-left"></div>
           <div className="border-bottom"></div>
           <div className="border-right"></div>
-          <div className="swiper-slide active">
+          <div className="swiper-slide ">
             <LanguageIcon className="icon" />
             <p>
               We use Intelligent, Interactive and Responsive LMS(Learning

@@ -1,6 +1,4 @@
 .slider {
-    padding: 2rem;
-overflow: hidden;
     width: 45vw;
     height: 100vh;
 
@@ -10,146 +8,133 @@ overflow: hidden;
 
     position: relative;
 
-    
-    .border-top {
-        width: 20%;
-        height: 0.5rem;
-        background-color: #e66226;
+    // overflow-y: scroll;
+
+    div {
+        width: 30rem;
+        height: 30rem;
+
         position: absolute;
-        top: 27rem;
-        left: 7.5rem;
+
+        cursor: pointer;
+
+        img {
+            width: 100%;
+        }
     }
-    .border-left {
-        width: 15%;
-        height: 0.5rem;
+
+    .prev-img {
+        top: -13rem;
+
+        transform: rotate(12deg);
+        transform-origin: right bottom;
+
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 78%);
+    }
+
+    .active-img {
+        top: 17rem;
+    }
+
+    .next-img {
+        top: 50rem;
+
+        transform: rotate(-12deg);
+        transform-origin: top right;
+
+        clip-path: polygon(0 22%, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .border {
+        width: 15rem;
+        height: 0.4rem;
+
         background-color: #e66226;
         position: absolute;
-        top: 27rem;
-        left: 7.5rem;
+    }
+
+    .border-top {
+        top: -2rem;
+        left: -1rem;
+    }
+
+    .border-left {
+        top: -2rem;
+        left: -1rem;
 
         transform: rotate(90deg);
         transform-origin: left top;
     }
 
     .border-bottom {
-        width: 20%;
-        height: 0.5rem;
-        background-color: #e66226;
-        position: absolute;
-        top: 63rem;
-        left: 8rem;
+        bottom: -5rem;
+        left: -1rem;
     }
+
     .border-right {
-        width: 15%;
-        height: 0.5rem;
-        background-color: #e66226;
-        position: absolute;
-        top: 53rem;
-        left: 8.5rem;
-        transform: rotate(90deg);
-        transform-origin: left top;
-    }
+        bottom: -5rem;
+        left: -1rem;
 
-    div {
-        width: 30rem;
-        height: 30rem;
-        img {
-            width: 100%;
-            height: 100%;
-        }
-    }
-
-    .img-1 {
-        position: absolute;
-        transform: rotate(30deg);
-        transform-origin: 100%;
-    }
-    .img-2 {
-        position: absolute;
-        top: 30rem;
-        right: 26rem;
-    }
-    .img-3 {
-        position: absolute;
-        top: 58rem;
-        right: 20rem;
-        transform: rotate(-23deg);
-        transform-origin: 100%;
+        transform: rotate(-90deg);
+        transform-origin: left bottom;
     }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
     .slider {
-        .border-top {
-            top: 27rem;
-            left: 13.5rem;
-        }
-        .border-left {
-            top: 27rem;
-            left: 13.5rem;
-        }
-
-        .border-bottom {
-            top: 57.5rem;
-            left: 13rem;
-        }
-        .border-right {
-            top: 48rem;
-            left: 13.5rem;
-        }
-
         div {
             width: 25rem;
             height: 25rem;
+
+            img {
+                width: 100%;
+            }
         }
 
-        .img-1 {
-            top: 7rem;
-            right: 15rem;
+        .prev-img {
+            top: -8rem;
         }
-        .img-2 {
-            top: 30rem;
-            right: 21rem;
+
+        .active-img {
+            top: 17rem;
         }
-        .img-3 {
-            top: 54rem;
-            right: 16rem;
+
+        .next-img {
+            top: 45rem;
+        }
+
+        .border {
+            width: 11rem;
+            height: 0.4rem;
         }
     }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1000px) {
     .slider {
-        .border-top {
-            left: 8.5rem;
-        }
-        .border-left {
-            left: 8.5rem;
+        div {
+            width: 20rem;
+            height: 20rem;
+
+            img {
+                width: 100%;
+            }
         }
 
-        .border-bottom {
-            top: 57rem;
-            left: 8.1rem;
-        }
-        .border-right {
-            left: 8.5rem;
-        }
-    }
-}
-@media screen and (max-width: 1300px) {
-    .slider {
-        .border-top {
-            left: 5.5rem;
-        }
-        .border-left {
-            left: 5.5rem;
+        .prev-img {
+            top: -3rem;
         }
 
-        .border-bottom {
-            top: 56rem;
-            left: 5.1rem;
+        .active-img {
+            top: 17rem;
         }
-        .border-right {
-            left: 5.5rem;
+
+        .next-img {
+            top: 39rem;
+        }
+
+        .border {
+            width: 9rem;
+            height: 0.3rem;
         }
     }
 }
