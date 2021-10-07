@@ -8,7 +8,6 @@
 
     position: relative;
 
-    // overflow-y: scroll;
 
     div {
         width: 30rem;
@@ -17,6 +16,8 @@
         position: absolute;
 
         cursor: pointer;
+
+        transition: 1s ease-in-out;
 
         img {
             width: 100%;
@@ -43,6 +44,11 @@
         transform-origin: top right;
 
         clip-path: polygon(0 22%, 100% 0, 100% 100%, 0 100%);
+    }
+    .after-next-img {
+        top: 80rem;
+
+     
     }
 
     .border {
