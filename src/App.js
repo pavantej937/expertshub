@@ -4,7 +4,7 @@ import "./App.css";
 import Home from "./pages/home/Home";
 import Education from "./pages/education/Education";
 import Testimonials from "./pages/testimonials/Testimonials";
-
+import VideoTestimonials from "./pages/videoTestmonials/VideoTestimonials";
 
 function App() {
   return (
@@ -17,9 +17,11 @@ function App() {
           <Testimonials />
         </Route>
         <Route path="/education">
-          <Education/>
+          <Education />
         </Route>
-        
+        <Route path="/video">
+          <VideoTestimonials />
+        </Route>
       </Switch>
     </BrowserRouter>
   );

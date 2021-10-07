@@ -87,11 +87,12 @@ const LeftBar = () => {
             <h3>Teaching</h3>
           </div>
         </Link>
-
+        <Link to="/video" className="link">
         <div className="icon">
           <img src={Logo} alt="" />
           <h3>Carrer</h3>
         </div>
+        </Link>
 
         <Link to="/testimonials" className="link">
           <div className="icon">
