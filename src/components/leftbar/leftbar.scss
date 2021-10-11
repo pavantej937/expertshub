@@ -2,7 +2,7 @@
     width: 10vw;
     height: 100vh;
 
-    padding: 2rem;
+    // padding: 2rem;
 
     display: flex;
     flex-direction: column;
@@ -11,6 +11,10 @@
     border-right: 1px solid #e66226;
 
     .logo {
+        margin-top: 2rem;
+        border-bottom: 1px solid #e66226;
+        width: 10vw;
+        text-align: center;
         img {
             width: 8rem;
             height: 8rem;
@@ -56,6 +60,7 @@
         .profile_text {
             display: flex;
             align-items: center;
+            justify-content: center;
 
             cursor: pointer;
 
@@ -64,6 +69,10 @@
                 font-size: 1.3rem;
             }
         }
+        border-top: 1px solid #e66226;
+        width: 10vw;
+        text-align: center;
+        margin-bottom: 2rem;
     }
 }
 

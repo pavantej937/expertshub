@@ -1,0 +1,100 @@
+.videoTestimonials {
+    display: flex;
+
+    .video {
+        width: 45vw;
+    }
+
+    .testimonials {
+        width: 45vw;
+        height: 100vh;
+
+        padding: 5rem;
+
+        position: relative;
+
+        h1 {
+            font-weight: 900;
+            letter-spacing: 2px;
+            color: #e66226;
+
+            opacity: .5;
+        }
+
+        .images {
+            div {
+                width: 10rem;
+                height: 10rem;
+
+                position: absolute;
+
+                cursor: pointer;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+
+                    border-radius: 10px;
+                }
+            }
+
+            .img-1 {
+                top: 18rem;
+                left: 6rem;
+            }
+            .img-2 {
+                top: 20rem;
+                right: 6rem;
+            }
+            .img-3 {
+                top: 45rem;
+                left: 6rem;
+            }
+            .img-4 {
+                top: 47rem;
+                right: 6rem;
+            }
+            .img-5 {
+                top: 30rem;
+                left: 28rem;
+                img{
+                    border-radius: 0;
+                }
+            }
+
+            .border {
+                width: 5rem;
+                height: 0.3rem;
+        
+                background-color: #e66226;
+                position: absolute;
+            }
+        
+            .border-top {
+                top: -1rem;
+                left: -.5rem;
+            }
+        
+            .border-left {
+                top: -1rem;
+                left: -.5rem;
+        
+                transform: rotate(90deg);
+                transform-origin: left top;
+            }
+
+            .border-bottom {
+                bottom: -1rem;
+                right: -.5rem;
+            }
+
+            .border-right {
+                bottom: -1rem;
+                right: -.5rem;
+        
+                transform: rotate(90deg);
+                transform-origin: right bottom;
+            }
+        }
+    }
+}
