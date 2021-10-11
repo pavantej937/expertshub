@@ -52,17 +52,25 @@ const LeftBar = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(phoneNo);
-    loginref.current.style.display = "none";
-    otpref.current.style.display = "block";
-    successref.current.style.display = "none";
+    if (phoneNo.length === 10) {
+      alert(`${phoneNo}`);
+      loginref.current.style.display = "none";
+      otpref.current.style.display = "block";
+      successref.current.style.display = "none";
+    } else {
+      alert("Enter a Valid Mobile Number!!");
+    }
   };
   const handleSubmitOtp = (e) => {
     e.preventDefault();
-    alert(otp);
-    loginref.current.style.display = "none";
-    otpref.current.style.display = "none";
-    successref.current.style.display = "block";
+    if (otp.length === 6) {
+      alert(`${otp} OTP Verified`);
+      loginref.current.style.display = "none";
+      otpref.current.style.display = "none";
+      successref.current.style.display = "block";
+    } else {
+      alert("OTP must be 6 characters");
+    }
   };
 
   return (
@@ -88,10 +96,10 @@ const LeftBar = () => {
           </div>
         </Link>
         <Link to="/video" className="link">
-        <div className="icon">
-          <img src={Logo} alt="" />
-          <h3>Carrer</h3>
-        </div>
+          <div className="icon">
+            <img src={Logo} alt="" />
+            <h3>Carrer</h3>
+          </div>
         </Link>
 
         <Link to="/testimonials" className="link">
@@ -131,7 +139,7 @@ const LeftBar = () => {
 
           <form className="modal-form" onSubmit={handleSubmit}>
             <input
-              type="text"
+              type="number"
               placeholder="Phone Number *"
               className="modal-input"
               onChange={handleInput}
@@ -171,7 +179,7 @@ const LeftBar = () => {
 
           <form className="modal-form" onSubmit={handleSubmitOtp}>
             <input
-              type="text"
+              type="number"
               placeholder="OTP *"
               className="modal-input"
               onChange={handleOtp}

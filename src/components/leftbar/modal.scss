@@ -35,6 +35,8 @@
     width: 55rem;
     height: 6rem;
 
+    font-size: 2.4rem;
+
     border: 2px solid #424143;
 
     border-radius: 10px;
@@ -156,4 +158,10 @@
 }
 .success {
     display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
