@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
 import "./App.css";
@@ -19,6 +20,7 @@ function App() {
         <Route path="/education">
           <Education />
         </Route>
+
         <Route path="/video">
           <VideoTestimonials />
         </Route>

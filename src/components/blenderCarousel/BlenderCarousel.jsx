@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useRef } from "react";
 import LanguageIcon from "@mui/icons-material/Language";
 import "./blenderCarousel.scss";
 
 const BlenderCarousel = () => {
+  const thirdSlideRef = useRef();
+
   return (
     <div className="blenderCarousel">
       <h1>expertshub stands out</h1>
@@ -13,7 +15,7 @@ const BlenderCarousel = () => {
           <div className="border-left"></div>
           <div className="border-bottom"></div>
           <div className="border-right"></div>
-          <div className="swiper-slide ">
+          <div className="swiper-slide  ">
             <LanguageIcon className="icon" />
             <p>
               We use Intelligent, Interactive and Responsive LMS(Learning
@@ -22,6 +24,7 @@ const BlenderCarousel = () => {
               features will enhance the learning
             </p>
           </div>
+
           <div className="swiper-slide">
             <LanguageIcon className="icon" />
             <p>
