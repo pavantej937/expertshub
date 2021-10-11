@@ -14,7 +14,7 @@ const Testimonials = () => {
         <div className="content">
           <h1>our students felt</h1>
           <img src={Comma} alt="" />
-          <h2>Shankey</h2>
+          <h2>Shankey Singh</h2>
           <h4>AKTU, Banglore</h4>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -49,7 +49,7 @@ const Testimonials = () => {
         <div className="content">
           <h1>our students felt</h1>
           <img src={Comma} alt="" />
-          <h2>Vansh</h2>
+          <h2>Vansh Rajput</h2>
           <h4>College, Mumbai</h4>
           <p>
             cover all the necessary things always ready to help organisers &
@@ -66,7 +66,7 @@ const Testimonials = () => {
         <div className="content">
           <h1>our students felt</h1>
           <img src={Comma} alt="" />
-          <h2>Lorem ipsum</h2>
+          <h2>Rohit Sharma</h2>
           <h4>College, Mumbai</h4>
           <p>
             There are many variations of passages of Lorem Ipsum available, but
@@ -85,7 +85,7 @@ const Testimonials = () => {
         <div className="content">
           <h1>our students felt</h1>
           <img src={Comma} alt="" />
-          <h2>5th image</h2>
+          <h2>Virat Kohli</h2>
           <h4>College, Mumbai</h4>
           <p>
             There are many variations of passages of Lorem Ipsum available, but
